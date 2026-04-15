@@ -1,8 +1,8 @@
-#FindMyRoomie
+# FindMyRoomie
 
 FindMyRoomie is a Java-based room rental application that connects property owners with seekers. The platform allows hosts to list available rooms with details, while seekers can browse listings and apply for suitable accommodations. The application uses Java Swing for the user interface and MySQL for backend data storage and management.
 
-#Features
+# Features
 User roles: Host and Seeker
 Room listing with details such as description, rent, address, and amenities
 Graphical User Interface built using Java Swing
@@ -17,28 +17,28 @@ MySQL
 VS Code (Development Environment)
 Setup Instructions
 
-##Clone the repository:
+## Clone the repository:
 
 git clone <https://github.com/Sneha07k/Online-Rental-Service>
 
-##Navigate to the project folder:
+## Navigate to the project folder:
 
 cd FindMyRoomie
 
-##Run the SQL schema file to create the database:
+## Run the SQL schema file to create the database:
 
 mysql -u root -p < schema.sql
 
-##Compile the Java files:
+## Compile the Java files:
 
 javac -d . *.java
 
-##Run the application:
+## Run the application:
 
 java -cp ".;mysql-connector-j-8.0.33.jar" findmyroomie.MainFrame
 
 
-##Project Structure:
+## Project Structure:
 .
 ├── findmyroomie/
 │   ├── MainFrame.class
