@@ -46,20 +46,6 @@ java -cp ".;mysql-connector-j-8.0.33.jar" findmyroomie.MainFrame
 
 
 
-## Project Structure:
-.
-├── findmyroomie/
-│   ├── MainFrame.class
-│   ├── DBConnection.class
-│   ├── ApplicationDAO.class
-│   ├── UI classes (Swing)
-│   └── ...
-├── schema.sql
-├── mysql-connector-j-8.0.33.jar
-└── *.java
-
-
-
 ## Screenshots
 
 ### Login Page
