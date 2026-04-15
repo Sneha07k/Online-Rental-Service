@@ -75,8 +75,11 @@ java -cp ".;mysql-connector-j-8.0.33.jar" findmyroomie.MainFrame
 
 
 
-Future Improvements
+## Future Improvements
 Add authentication and password encryption
+
 Improve UI/UX of Swing interface
+
 Add search and filtering options
+
 Convert to a web-based application
